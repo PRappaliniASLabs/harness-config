@@ -8,7 +8,7 @@ pipeline:
         ci:
             codebase:
                 connectorRef: account.MyGitConnector
-                repoName: https://github.com/keen-software/goHelloWorldServer
+                repoName: goHelloWorldServer
                 build: <+input>
     stages:
         - stage:
