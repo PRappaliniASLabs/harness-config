@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "BranchPorDefecto"
+  pipeline:
+    identifier: "CI_Pipeline"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "branch"
+            spec:
+              branch: "master"
+  name: "BranchPorDefecto"
+  orgIdentifier: "default"
+  projectIdentifier: "Harness01"
